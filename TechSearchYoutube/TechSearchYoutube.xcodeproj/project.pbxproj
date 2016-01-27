@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE4C98D1C4785900049355B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE4C98C1C4785900049355B /* main.m */; };
+		FAE4C9901C4785900049355B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE4C98F1C4785900049355B /* AppDelegate.m */; };
+		FAE4C9991C4785900049355B /* TechSearchYoutube.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAE4C9971C4785900049355B /* TechSearchYoutube.xcdatamodeld */; };
+		FAE4C99B1C4785900049355B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE4C99A1C4785900049355B /* Assets.xcassets */; };
+		FAE4C99E1C4785900049355B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE4C99C1C4785900049355B /* LaunchScreen.storyboard */; };
+		FAE4C9A91C4786330049355B /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE4C9A71C4786330049355B /* MainVC.m */; };
+		FAE4C9AA1C4786330049355B /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE4C9A81C4786330049355B /* MainVC.xib */; };
+		FAE4C9AF1C4797680049355B /* IOSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE4C9AE1C4797680049355B /* IOSRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAE4C9881C4785900049355B /* TechSearchYoutube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechSearchYoutube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE4C98C1C4785900049355B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAE4C98E1C4785900049355B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAE4C98F1C4785900049355B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAE4C9981C4785900049355B /* TechSearchYoutube.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TechSearchYoutube.xcdatamodel; sourceTree = "<group>"; };
+		FAE4C99A1C4785900049355B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE4C99D1C4785900049355B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAE4C99F1C4785900049355B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE4C9A61C4786330049355B /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		FAE4C9A71C4786330049355B /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		FAE4C9A81C4786330049355B /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		FAE4C9AB1C47865D0049355B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FAE4C9AD1C4797680049355B /* IOSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOSRequest.h; path = WebService/IOSRequest.h; sourceTree = "<group>"; };
+		FAE4C9AE1C4797680049355B /* IOSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IOSRequest.m; path = WebService/IOSRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE4C9851C4785900049355B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE4C97F1C4785900049355B = {
+			isa = PBXGroup;
+			children = (
+				FAE4C98A1C4785900049355B /* TechSearchYoutube */,
+				FAE4C9891C4785900049355B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE4C9891C4785900049355B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4C9881C4785900049355B /* TechSearchYoutube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE4C98A1C4785900049355B /* TechSearchYoutube */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4C98E1C4785900049355B /* AppDelegate.h */,
+				FAE4C98F1C4785900049355B /* AppDelegate.m */,
+				FAE4C9A61C4786330049355B /* MainVC.h */,
+				FAE4C9A71C4786330049355B /* MainVC.m */,
+				FAE4C9A81C4786330049355B /* MainVC.xib */,
+				FAE4C9AC1C4797270049355B /* WebService */,
+				FAE4C9A51C4785B20049355B /* Resource */,
+				FAE4C98B1C4785900049355B /* Supporting Files */,
+			);
+			path = TechSearchYoutube;
+			sourceTree = "<group>";
+		};
+		FAE4C98B1C4785900049355B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4C99A1C4785900049355B /* Assets.xcassets */,
+				FAE4C99C1C4785900049355B /* LaunchScreen.storyboard */,
+				FAE4C99F1C4785900049355B /* Info.plist */,
+				FAE4C98C1C4785900049355B /* main.m */,
+				FAE4C9AB1C47865D0049355B /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE4C9A51C4785B20049355B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4C9971C4785900049355B /* TechSearchYoutube.xcdatamodeld */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		FAE4C9AC1C4797270049355B /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4C9AD1C4797680049355B /* IOSRequest.h */,
+				FAE4C9AE1C4797680049355B /* IOSRequest.m */,
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE4C9871C4785900049355B /* TechSearchYoutube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE4C9A21C4785900049355B /* Build configuration list for PBXNativeTarget "TechSearchYoutube" */;
+			buildPhases = (
+				FAE4C9841C4785900049355B /* Sources */,
+				FAE4C9851C4785900049355B /* Frameworks */,
+				FAE4C9861C4785900049355B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechSearchYoutube;
+			productName = TechSearchYoutube;
+			productReference = FAE4C9881C4785900049355B /* TechSearchYoutube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE4C9801C4785900049355B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ToanLH;
+				TargetAttributes = {
+					FAE4C9871C4785900049355B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 49BVYUC5DB;
+					};
+				};
+			};
+			buildConfigurationList = FAE4C9831C4785900049355B /* Build configuration list for PBXProject "TechSearchYoutube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE4C97F1C4785900049355B;
+			productRefGroup = FAE4C9891C4785900049355B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE4C9871C4785900049355B /* TechSearchYoutube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE4C9861C4785900049355B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE4C9AA1C4786330049355B /* MainVC.xib in Resources */,
+				FAE4C99E1C4785900049355B /* LaunchScreen.storyboard in Resources */,
+				FAE4C99B1C4785900049355B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE4C9841C4785900049355B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE4C9991C4785900049355B /* TechSearchYoutube.xcdatamodeld in Sources */,
+				FAE4C9A91C4786330049355B /* MainVC.m in Sources */,
+				FAE4C9901C4785900049355B /* AppDelegate.m in Sources */,
+				FAE4C98D1C4785900049355B /* main.m in Sources */,
+				FAE4C9AF1C4797680049355B /* IOSRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAE4C99C1C4785900049355B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE4C99D1C4785900049355B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE4C9A01C4785900049355B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/macbook/MyData/ZOtherCode/TechSearchYoutube/TechSearchYoutube/TechSearchYoutube/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE4C9A11C4785900049355B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/macbook/MyData/ZOtherCode/TechSearchYoutube/TechSearchYoutube/TechSearchYoutube/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE4C9A31C4785900049355B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TechSearchYoutube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.laihuutoan.TechSearchYoutube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FAE4C9A41C4785900049355B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TechSearchYoutube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.laihuutoan.TechSearchYoutube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE4C9831C4785900049355B /* Build configuration list for PBXProject "TechSearchYoutube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE4C9A01C4785900049355B /* Debug */,
+				FAE4C9A11C4785900049355B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE4C9A21C4785900049355B /* Build configuration list for PBXNativeTarget "TechSearchYoutube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE4C9A31C4785900049355B /* Debug */,
+				FAE4C9A41C4785900049355B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAE4C9971C4785900049355B /* TechSearchYoutube.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAE4C9981C4785900049355B /* TechSearchYoutube.xcdatamodel */,
+			);
+			currentVersion = FAE4C9981C4785900049355B /* TechSearchYoutube.xcdatamodel */;
+			path = TechSearchYoutube.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAE4C9801C4785900049355B /* Project object */;
+}
